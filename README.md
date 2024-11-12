@@ -33,7 +33,7 @@ This unsupervised and adaptable approach allows building managers to effectively
 - **Resources**: 
   - [Website](https://aiforgood.itu.int/event/5g-energy-consumption-modelling-ai-ml-solutions-for-climate-change/)
   - [Report](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITUJ-2024-0022.R2_APR_TSB_EDIT.pdf)
-- **Keywords**: Supervised Learning, Ridge, XGBoost, Time Series, Forecasting
+- **Keywords**: Supervised Learning, Ridge, XGBoost, Time Series, Forecasting, Mixture of Experts
 
 #### Project Overview
 <img src="https://raw.githubusercontent.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/main/Banner.png" alt="Project Banner" width="600" height="150">
@@ -42,10 +42,10 @@ This unsupervised and adaptable approach allows building managers to effectively
 In the 5G energy consumption modeling challenge, participants were tasked with predicting the energy usage of 5G networks. This challenge highlights the difficulty in accurately forecasting energy consumption due to the dynamic nature and complex deployment scenarios of 5G technology.
 
 **The Solution:**
-Our team developed a predictive model tailored to the specific energy patterns of 5G networks. We segmented our approach into three key objectives to handle different scenarios: direct forecasting for known base stations, generalization for new stations with similar configurations, and broad generalization for entirely new configurations. We utilized advanced data processing and an ensemble of Ridge Regression and XGBoost models to enhance prediction accuracy.
+Our team developed a predictive model tailored to the specific energy patterns of 5G networks. We segmented our approach into three key objectives to handle different scenarios: direct forecasting for known base stations, generalization for new stations with similar configurations, and broad generalization for entirely new configurations. We employed advanced data processing techniques, a Mixture of Experts approach, and an ensemble of Ridge Regression and XGBoost models to enhance prediction accuracy.
 
 **Impact:**
-Our findings and methodologies were compiled into a research paper that has been published, contributing to the broader understanding of energy management in 5G networks. [Paper](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
+Our findings and methodologies were compiled into a research paper that has been published, contributing to the broader understanding of energy management in 5G networks. [Paper](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITUJ-2024-0022.R2_APR_TSB_EDIT.pdf)
 
 **Competition Results:**
 - **WMAPE**: 0.069 (Ranked 3st)
