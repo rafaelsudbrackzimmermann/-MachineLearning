@@ -23,7 +23,7 @@ STL Decomposition: We chose STL for its flexibility in handling seasonal variati
 
 Adjusted STL Algorithm: This enhanced version of the standard STL method integrates classical decomposition's stability with STL’s adaptability, ensuring accurate energy use breakdowns even when data exhibit volatile seasonal shifts.
 
-** Impact **: This unsupervised and adaptable approach allows building managers to effectively monitor and control energy usage for various systems without the need for complex and expensive sub-metering infrastructure. By leveraging basic meter data, our model provides a scalable and economically viable solution for energy management across diverse building environments.
+Impact: This unsupervised and adaptable approach allows building managers to effectively monitor and control energy usage for various systems without the need for complex and expensive sub-metering infrastructure. By leveraging basic meter data, our model provides a scalable and economically viable solution for energy management across diverse building environments.
 
 #### Results [link](https://codalab.lisn.upsaclay.fr/competitions/19659#results)
 **Training Results:**
