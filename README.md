@@ -9,7 +9,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 - **3- Main Training**: [link](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/blob/main/Submission%201/code/_4_main_train.py)
 - **Resources**: 
   - [Website](https://adrenalin.energy/Load-Disaggregation-Challenge-Energy-use-in-buildings)
-  - [Report](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
+  - [Paper](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
 - **Keywords**: Unsupervised Learning, Time Series, Disaggregation
 
 #### Project Overview
@@ -45,7 +45,7 @@ In the 5G energy consumption modeling challenge, participants were tasked with p
 Our team developed a predictive model tailored to the specific energy patterns of 5G networks. We segmented our approach into three key objectives to handle different scenarios: direct forecasting for known base stations, generalization for new stations with similar configurations, and broad generalization for entirely new configurations. We utilized advanced data processing and an ensemble of Ridge Regression and XGBoost models to enhance prediction accuracy.
 
 **Impact:**
-Our findings and methodologies were compiled into a research paper that has been published, contributing to the broader understanding of energy management in 5G networks. 
+Our findings and methodologies were compiled into a research paper that has been published, contributing to the broader understanding of energy management in 5G networks. [Paper](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
 
 **Competition Results:**
 - **WMAPE**: 0.069 (Ranked 3st)
