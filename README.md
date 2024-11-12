@@ -4,7 +4,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 
 ## Projects:
 
-## Load Disaggregation Challenge: Energy Use in Buildings - 2024 
+### Load Disaggregation Challenge: Energy Use in Buildings - 2024 
 - **1- Preprocess Data**: [link](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/blob/main/Submission%201/code/_1_pre_process.py)
 - **2- Model**: [link](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/blob/main/Submission%201/code/_2_model.py)
 - **3- Main Training**: [link](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/blob/main/Submission%201/code/_4_main_train.py)
