@@ -11,9 +11,10 @@ This is a repository of the projects I worked on or currently working on. It is 
   - [Website](https://adrenalin.energy/Load-Disaggregation-Challenge-Energy-use-in-buildings)
   - [Report](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
 - **Keywords**: Unsupervised Learning, Time Series, Disaggregation
-![Project Banner](https://raw.githubusercontent.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/main/Submission%201/Banner2.png)
 
 #### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/main/Submission%201/Banner2.png" alt="Project Banner" width="600" height="150">
+
 **The Problem:**
 Energy management in buildings often lacks detailed insights due to the absence of extensive metering, making it challenging to identify how specific systems like heating and cooling contribute to overall energy consumption.
 
@@ -32,18 +33,19 @@ This unsupervised and adaptable approach allows building managers to effectively
 - **Resources**: 
   - [Website](https://aiforgood.itu.int/event/5g-energy-consumption-modelling-ai-ml-solutions-for-climate-change/)
   - [Report](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITUJ-2024-0022.R2_APR_TSB_EDIT.pdf)
-- **Keywords**: Supervised Learning, Ridge, XGboost, Time Series, Forecast
-![Project Banner](https://raw.githubusercontent.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/Banner.png)
+- **Keywords**: Supervised Learning, Ridge, XGBoost, Time Series, Forecasting
 
 #### Project Overview
+<img src="https://raw.githubusercontent.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/main/Banner.png" alt="Project Banner" width="600" height="150">
+
 **The Problem:**
-Energy management in buildings often lacks detailed insights due to the absence of extensive metering, making it challenging to identify how specific systems like heating and cooling contribute to overall energy consumption.
+In the 5G energy consumption modeling challenge, participants were tasked with predicting the energy usage of 5G networks. This challenge highlights the difficulty in accurately forecasting energy consumption due to the dynamic nature and complex deployment scenarios of 5G technology.
 
 **The Solution:**
-To address this, our team developed a solution using an unsupervised learning approach with the Adjusted STL (Seasonal-Trend Decomposition using LOESS) algorithm. This method improves upon traditional energy disaggregation techniques by adapting to complex and noisy data without needing predefined labels or extensive historical data inputs.
+Our team developed a predictive model tailored to the specific energy patterns of 5G networks. We segmented our approach into three key objectives to handle different scenarios: direct forecasting for known base stations, generalization for new stations with similar configurations, and broad generalization for entirely new configurations. We utilized advanced data processing and an ensemble of Ridge Regression and XGBoost models to enhance prediction accuracy.
 
 **Impact:**
-This unsupervised and adaptable approach allows building managers to effectively monitor and control energy usage for various systems without the need for complex and expensive sub-metering infrastructure. By leveraging basic meter data, our model provides a scalable and economically viable solution for energy management across diverse building environments.
+Our findings and methodologies were compiled into a research paper that has been published, contributing to the broader understanding of energy management in 5G networks. 
 
 **Competition Results:**
 - **WMAPE**: 0.069 (Ranked 3st)
