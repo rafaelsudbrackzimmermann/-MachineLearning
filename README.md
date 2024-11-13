@@ -21,9 +21,6 @@ Energy management in buildings often lacks detailed insights due to the absence 
 **The Solution:**
 To address this, our team developed a solution using an unsupervised learning approach with the Adjusted STL (Seasonal-Trend Decomposition using LOESS) algorithm. This method improves upon traditional energy disaggregation techniques by adapting to complex and noisy data without needing predefined labels or extensive historical data inputs.
 
-**Impact:**
-This unsupervised and adaptable approach allows building managers to effectively monitor and control energy usage for various systems without the need for complex and expensive sub-metering infrastructure. By leveraging basic meter data, our model provides a scalable and economically viable solution for energy management across diverse building environments.
-
 **Competition Results:**
 - **nMAE**: 0.235 (Ranked 1st)
 
@@ -32,7 +29,7 @@ This unsupervised and adaptable approach allows building managers to effectively
 - **Colab Presentation**: [link](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITU_5G_Model_WMAPE-0.69.ipynb)
 - **Resources**: 
   - [Website](https://aiforgood.itu.int/event/5g-energy-consumption-modelling-ai-ml-solutions-for-climate-change/)
-  - [Report](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITUJ-2024-0022.R2_APR_TSB_EDIT.pdf)
+  - [Paper](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITUJ-2024-0022.R2_APR_TSB_EDIT.pdf)
 - **Keywords**: Supervised Learning, Ridge, XGBoost, Time-Series, Forecasting, Mixture of Experts
 
 #### Project Overview
@@ -43,9 +40,6 @@ In the 5G energy consumption modeling challenge, participants were tasked with p
 
 **The Solution:**
 Our team developed a predictive model tailored to the specific energy patterns of 5G networks. We segmented our approach into three key objectives to handle different scenarios: direct forecasting for known base stations, generalization for new stations with similar configurations, and broad generalization for entirely new configurations. We employed advanced data processing techniques, a Mixture of Experts approach, and an ensemble of Ridge Regression and XGBoost models to enhance prediction accuracy.
-
-**Impact:**
-Our findings and methodologies were compiled into a research paper that has been published, contributing to the broader understanding of energy management in 5G networks. [Paper](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITUJ-2024-0022.R2_APR_TSB_EDIT.pdf)
 
 **Competition Results:**
 - **WMAPE**: 0.069 (Ranked 3st)
@@ -67,9 +61,6 @@ EEG analysis currently depends on manual review by specialized neurologists, a t
 **The Solution:**
 We developed a solution using TensorFlow and Keras to automate EEG analysis. The architecture was based on EfficientNetB0, chosen for its effectiveness in handling image data, which is similar in complexity to spectrograms derived from EEG signals. Data enhancement techniques included generating custom spectrograms with libraries like cupy and cusignal, tailored to capture the nuances of EEG data. The training approach involved self-labeling refinement to improve label accuracy, and cross-validation to ensure the model's robustness and reliability.
 
-**Impact:**
-The automation of EEG signal analysis could significantly decrease the time required for diagnosis, reduce costs, and increase the reliability of EEG readings across different medical settings. This advancement could greatly aid in treating critical brain conditions more efficiently and with greater accuracy.
-
 **Competition Results:**
 - **Kullback Leibler Divergence**: 0.279 (Ranked 78st)
   
@@ -87,9 +78,6 @@ Energy imbalance is a significant challenge in power grids, particularly with th
 
 **The Solution:**
 The solution utilizes a comprehensive framework featuring data management, advanced feature engineering, and predictive modeling to accurately forecast energy behavior of prosumers. The core functionality centers around a LightGBM-based ensemble model, integrated with the competition's API, ensuring timely and rule-compliant predictions. Key libraries like pandas, polars, lightgbm, and sklearn facilitate sophisticated data operations and model execution, with the primary objective of minimizing energy imbalances by enhancing prediction accuracy.
-
-**Impact:**
-If successfully implemented, these models can significantly reduce energy imbalance costs, enhance grid reliability, and foster the integration of renewable energy sources by making the energy behavior of prosumers more predictable and manageable. This improvement could also encourage more consumers to become prosumers by ensuring their energy contributions are effectively utilized, promoting sustainability.
 
 **Competition Results:**
 - **MAE**: 59.726 (Ranked 109st)
@@ -109,9 +97,6 @@ Manually annotating protein functions is time-consuming and labor-intensive. Thi
 
 **The Solution:**
 The proposed solution involves using advanced machine learning models to predict protein functions from their amino acid sequences. The process starts by converting these sequences into numerical data that can be processed by neural networks. We use different types of embeddings (T5, ProtBERT, EMS2) which capture various aspects of protein structure and function from the sequence data. These embeddings are then input into neural network models (like MultiLayer Perceptron and Convolutional Neural Networks) to predict the functions associated with each protein. 
-
-**Impact:**
-This approach automates the prediction of protein functions, which significantly accelerates biological research and therapeutic development. By efficiently predicting protein functions, researchers can quicker identify novel drug targets and understand disease mechanisms.
 
 **Competition Results:**
 - **Weighted F-measures**: 0.532 (Ranked 186st)
