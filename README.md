@@ -10,7 +10,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 - **Resources**: 
   - [Website](https://adrenalin.energy/Load-Disaggregation-Challenge-Energy-use-in-buildings)
   - [Paper](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
-- **Keywords**: Unsupervised Learning, Time Series, Disaggregation
+- **Keywords**: Unsupervised Learning, Time-Series, Disaggregation, Decomposition, Clustering 
 
 #### Project Overview
 <img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/main/Submission%201/Banner2.png" alt="Project Banner" width="600" height="150">
@@ -33,7 +33,7 @@ This unsupervised and adaptable approach allows building managers to effectively
 - **Resources**: 
   - [Website](https://aiforgood.itu.int/event/5g-energy-consumption-modelling-ai-ml-solutions-for-climate-change/)
   - [Report](https://github.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/blob/main/ITUJ-2024-0022.R2_APR_TSB_EDIT.pdf)
-- **Keywords**: Supervised Learning, Ridge, XGBoost, Time Series, Forecasting, Mixture of Experts
+- **Keywords**: Supervised Learning, Ridge, XGBoost, Time-Series, Forecasting, Mixture of Experts
 
 #### Project Overview
 <img src="https://raw.githubusercontent.com/ITU-AI-ML-in-5G-Challenge/-3-Place-Solution-5G-Energy-Consumption-Modelling-Challenge/main/Banner.png" alt="Project Banner" width="600" height="150">
@@ -49,6 +49,27 @@ Our findings and methodologies were compiled into a research paper that has been
 
 **Competition Results:**
 - **WMAPE**: 0.069 (Ranked 3st)
+
+## Enefit - Predict Energy Behavior of Prosumers - 2024 - [Silver medal - 109th place - Top 4%] 🥈
+- **Final Solution**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/enefit/enefit-final-submission.ipynb)
+- **Resources**: 
+  - [Website](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview)
+- **Keywords**: Supervised Learning, Advanced Feature Engineering, LightGBM, Time-Series, Forecasting.
+
+#### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/portfolios/enefit/Banner.png" alt="Project Banner" width="600" height="150">
+
+**The Problem:**
+Energy imbalance is a significant challenge in power grids, particularly with the rise of prosumers—consumers who both produce and consume energy. These prosumers can cause unpredictable fluctuations in energy demand and supply, leading to operational inefficiencies, higher costs, and potential grid instability.
+
+**The Solution:**
+The solution utilizes a comprehensive framework featuring data management, advanced feature engineering, and predictive modeling to accurately forecast energy behavior of prosumers. The core functionality centers around a LightGBM-based ensemble model, integrated with the competition's API, ensuring timely and rule-compliant predictions. Key libraries like pandas, polars, lightgbm, and sklearn facilitate sophisticated data operations and model execution, with the primary objective of minimizing energy imbalances by enhancing prediction accuracy.
+
+**Impact:**
+If successfully implemented, these models can significantly reduce energy imbalance costs, enhance grid reliability, and foster the integration of renewable energy sources by making the energy behavior of prosumers more predictable and manageable. This improvement could also encourage more consumers to become prosumers by ensuring their energy contributions are effectively utilized, promoting sustainability.
+
+**Competition Results:**
+- **MAE**: 59.726 (Ranked 109st)
 
 
 
