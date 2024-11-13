@@ -71,6 +71,29 @@ If successfully implemented, these models can significantly reduce energy imbala
 **Competition Results:**
 - **MAE**: 59.726 (Ranked 109st)
 
+## HMS - Harmful Brain Activity Classification - 2024 - [Silver medal - 78th place - Top 3%] 🥈
+- **Final Solution**: [link](https://www.kaggle.com/code/rafaelzimmermann1/no-ensemble-new-spectrograms-label-refine)
+- **Spectograms**: [link](https://www.kaggle.com/code/rafaelzimmermann1/hms-spectrogram-creation-using-gpu)
+- **Resources**: 
+  - [Website](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/overview)
+- **Keywords**: Computer Vision, TensorFlow, Keras, EfficientNetB0, Data Augmentation, self-labeling refinement.
+
+#### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/HMS/header.png" alt="Project Banner" width="600" height="150">
+
+**The Problem:**
+This project is part of a competition aiming to automate the analysis of EEG signals to detect seizures and other harmful brain activity. Advanced machine learning models were used to classify EEG patterns, potentially speeding up diagnosis and improving treatment accuracy in critical neurocare.
+EEG analysis currently depends on manual review by specialized neurologists, a time-consuming and error-prone process due to fatigue and the subjective nature of the analysis. This creates bottlenecks in treatment and research.
+
+**The Solution:**
+We developed a solution using TensorFlow and Keras to automate EEG analysis. The architecture was based on EfficientNetB0, chosen for its effectiveness in handling image data, which is similar in complexity to spectrograms derived from EEG signals. Data enhancement techniques included generating custom spectrograms with libraries like cupy and cusignal, tailored to capture the nuances of EEG data. The training approach involved self-labeling refinement to improve label accuracy, and cross-validation to ensure the model's robustness and reliability.
+
+**Impact:**
+The automation of EEG signal analysis could significantly decrease the time required for diagnosis, reduce costs, and increase the reliability of EEG readings across different medical settings. This advancement could greatly aid in treating critical brain conditions more efficiently and with greater accuracy.
+
+**Competition Results:**
+- **Kullback Leibler Divergence**: 0.279 (Ranked 78st)
+
 
 
 
