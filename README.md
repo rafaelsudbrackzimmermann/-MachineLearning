@@ -57,7 +57,7 @@ Our findings and methodologies were compiled into a research paper that has been
 - **Keywords**: Supervised Learning, Advanced Feature Engineering, LightGBM, Time-Series, Forecasting.
 
 #### Project Overview
-<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/portfolios/enefit/Banner.png" alt="Project Banner" width="600" height="150">
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/enefit/Banner.png" alt="Project Banner" width="600" height="150">
 
 **The Problem:**
 Energy imbalance is a significant challenge in power grids, particularly with the rise of prosumers—consumers who both produce and consume energy. These prosumers can cause unpredictable fluctuations in energy demand and supply, leading to operational inefficiencies, higher costs, and potential grid instability.
