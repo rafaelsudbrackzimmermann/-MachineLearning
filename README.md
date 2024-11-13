@@ -50,28 +50,7 @@ Our findings and methodologies were compiled into a research paper that has been
 **Competition Results:**
 - **WMAPE**: 0.069 (Ranked 3st)
 
-## Enefit - Predict Energy Behavior of Prosumers - 2024 - [Silver medal - 109th place - Top 4%] 🥈
-- **Final Solution**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/enefit/enefit-final-submission.ipynb)
-- **Resources**: 
-  - [Website](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview)
-- **Keywords**: Supervised Learning, Advanced Feature Engineering, LightGBM, Time-Series, Forecasting.
-
-#### Project Overview
-<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/enefit/Banner.png" alt="Project Banner" width="600" height="150">
-
-**The Problem:**
-Energy imbalance is a significant challenge in power grids, particularly with the rise of prosumers—consumers who both produce and consume energy. These prosumers can cause unpredictable fluctuations in energy demand and supply, leading to operational inefficiencies, higher costs, and potential grid instability.
-
-**The Solution:**
-The solution utilizes a comprehensive framework featuring data management, advanced feature engineering, and predictive modeling to accurately forecast energy behavior of prosumers. The core functionality centers around a LightGBM-based ensemble model, integrated with the competition's API, ensuring timely and rule-compliant predictions. Key libraries like pandas, polars, lightgbm, and sklearn facilitate sophisticated data operations and model execution, with the primary objective of minimizing energy imbalances by enhancing prediction accuracy.
-
-**Impact:**
-If successfully implemented, these models can significantly reduce energy imbalance costs, enhance grid reliability, and foster the integration of renewable energy sources by making the energy behavior of prosumers more predictable and manageable. This improvement could also encourage more consumers to become prosumers by ensuring their energy contributions are effectively utilized, promoting sustainability.
-
-**Competition Results:**
-- **MAE**: 59.726 (Ranked 109st)
-
-## HMS - Harmful Brain Activity Classification - 2024 - [Silver medal - 78th place - Top 3%] 🥈
+## HMS - Harmful Brain Activity Classification - 2024 - [Silver medal - 78st place - Top 3%] 🥈
 - **Final Solution**: [link](https://www.kaggle.com/code/rafaelzimmermann1/no-ensemble-new-spectrograms-label-refine)
 - **Spectograms**: [link](https://www.kaggle.com/code/rafaelzimmermann1/hms-spectrogram-creation-using-gpu)
 - **Resources**: 
@@ -93,6 +72,49 @@ The automation of EEG signal analysis could significantly decrease the time requ
 
 **Competition Results:**
 - **Kullback Leibler Divergence**: 0.279 (Ranked 78st)
+  
+## Enefit - Predict Energy Behavior of Prosumers - 2024 - [Silver medal - 109st place - Top 4%] 🥈
+- **Final Solution**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/enefit/enefit-final-submission.ipynb)
+- **Resources**: 
+  - [Website](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview)
+- **Keywords**: Supervised Learning, Advanced Feature Engineering, LightGBM, Time-Series, Forecasting.
+
+#### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/enefit/Banner.png" alt="Project Banner" width="600" height="150">
+
+**The Problem:**
+Energy imbalance is a significant challenge in power grids, particularly with the rise of prosumers—consumers who both produce and consume energy. These prosumers can cause unpredictable fluctuations in energy demand and supply, leading to operational inefficiencies, higher costs, and potential grid instability.
+
+**The Solution:**
+The solution utilizes a comprehensive framework featuring data management, advanced feature engineering, and predictive modeling to accurately forecast energy behavior of prosumers. The core functionality centers around a LightGBM-based ensemble model, integrated with the competition's API, ensuring timely and rule-compliant predictions. Key libraries like pandas, polars, lightgbm, and sklearn facilitate sophisticated data operations and model execution, with the primary objective of minimizing energy imbalances by enhancing prediction accuracy.
+
+**Impact:**
+If successfully implemented, these models can significantly reduce energy imbalance costs, enhance grid reliability, and foster the integration of renewable energy sources by making the energy behavior of prosumers more predictable and manageable. This improvement could also encourage more consumers to become prosumers by ensuring their energy contributions are effectively utilized, promoting sustainability.
+
+**Competition Results:**
+- **MAE**: 59.726 (Ranked 109st)
+
+## CAFA 5 Protein Function Prediction - 2023 - [186st place - Top 12%] 🥈
+- **Final Solution**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/CAFA5/model-t5-embeds-cafa5.ipynb)
+- **Embeds**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/CAFA5/embed_ProtT5.ipynb)
+- **Resources**: 
+  - [Website](https://www.kaggle.com/competitions/cafa-5-protein-function-prediction)
+- **Keywords**: NLP, Protein Function Prediction, Deep Learning, Neural Networks, PyTorch.
+
+#### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/CAFA5/Banner.png" alt="Project Banner" width="600" height="150">
+
+**The Problem:**
+Manually annotating protein functions is time-consuming and labor-intensive. This challenge focuses on automating the process using computational techniques, which can help in rapidly identifying potential biological roles of proteins based on their sequences.
+
+**The Solution:**
+The proposed solution involves using advanced machine learning models to predict protein functions from their amino acid sequences. The process starts by converting these sequences into numerical data that can be processed by neural networks. We use different types of embeddings (T5, ProtBERT, EMS2) which capture various aspects of protein structure and function from the sequence data. These embeddings are then input into neural network models (like MultiLayer Perceptron and Convolutional Neural Networks) to predict the functions associated with each protein. 
+
+**Impact:**
+This approach automates the prediction of protein functions, which significantly accelerates biological research and therapeutic development. By efficiently predicting protein functions, researchers can quicker identify novel drug targets and understand disease mechanisms.
+
+**Competition Results:**
+- **Weighted F-measures**: 0.532 (Ranked 186st)
 
 
 
