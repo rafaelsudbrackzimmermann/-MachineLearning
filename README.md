@@ -102,5 +102,22 @@ The proposed solution involves using advanced machine learning models to predict
 - **Weighted F-measures**: 0.532 (Ranked 186st)
 
 
+## ADIA Lab Causal Discovery Challenge - 2024 - [13st place - Top 2%] 🥈
+- **Final Solution**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/ADIA/Adia-Final-Model.ipynb)
+- **Resources**: 
+  - [Website](https://hub.crunchdao.com/competitions/causality-discovery/)
+- **Keywords**: Causal Discovery, Directed Acyclic Graph (DAG), Deep Learning, Neural Networks, PyTorch.
+
+#### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/ADIA/Banner.png" alt="Project Banner" width="600" height="150">
+
+**The Problem:**
+This competition seeks to automate the identification of causal relationships using computational methods, which can significantly speed up the process and increase accuracy in fields like healthcare and economics.
+
+**The Solution:**
+The proposed solution utilizes a sophisticated neural network model to predict causal directed acyclic graphs (DAGs) from observational data. The model begins by converting datasets into a structured format that neural networks can interpret. It employs advanced data processing techniques, including convolutional neural layers that analyze the relationships and interactions between variables. The network outputs predictions on the causal relationships, specifying how each variable affects or is affected by others, thereby automating the complex task of causal discovery.
+
+**Competition Results:**
+- **Multiclass balanced accuracy**: 58.596 (Ranked 13st)
 
 
