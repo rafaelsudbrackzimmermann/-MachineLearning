@@ -135,5 +135,19 @@ This competition addresses the need to improve skin cancer triage using lower-qu
 **The Solution:**
 The proposed solution employs advanced machine learning models to develop algorithms that can accurately differentiate between malignant and benign skin lesions from lower-quality 3D total body photos. These models use neural networks to process and analyze the images, aiming to provide reliable early skin cancer detection in non-clinical settings. The effectiveness of these algorithms is measured using a specific performance metric, the partial area under the ROC curve (pAUC), focusing on achieving high sensitivity in detecting malignant cases.
 
+## ISIC - Learning Agency Lab - Automated Essay Scoring - 2024
+- **Final Solution**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/AES/versao-final-ensamble-final-aes.ipynb)
+- **Resources**: 
+  - [Website](https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2)
+- **Keywords**: NLP, Cohen Kappa Score, Deep Learning, Neural Networks, Keras, Tensorflow.
+
+#### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/AES/Banner.png" alt="Project Banner" width="600" height="150">
+
+**The Problem:**
+Manual essay grading is not only time-intensive but also restricts the use of writing assessments on a larger scale, particularly in under-resourced educational environments. In such settings, the delay in feedback from teachers can hinder student learning and development. Moreover, the diversity in student backgrounds requires that automated grading systems be unbiased and adept at evaluating a broad spectrum of writing styles and cultural nuances to ensure fairness and accuracy in assessment.
+
+**The Solution:**
+The proposed solution leverages advanced Natural Language Processing (NLP) technologies to develop an open-source automated essay scoring (AES) system. By incorporating neural network models such as BERT and DeBERTa, along with Transformer architectures, the system can understand and evaluate the complexities of student writing effectively. 
 
 
