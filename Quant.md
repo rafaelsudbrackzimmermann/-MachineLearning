@@ -1,14 +1,14 @@
 ## Robust Portfolio Execution Trading Algorithm with ML [Proven Over 10 Years on Real Trading Accounts with Over 1000 Users | MQL5, C++, Python]
 
-Over the past decade, I have played a pivotal role in developing and maintaining a proprietary trading algorithm that has significantly influenced the Brazilian stock market. As a senior machine learning engineer at Metarobos, I spearheaded the creation of one of the first automated trading robots available to individual investors in Brazil. This innovation not only democratized access to sophisticated trading tools but also set new industry standards for security, transparency, and performance consistency.
+Over the past ten years, I have played an important role in developing and maintaining a proprietary trading algorithm that has significantly influenced the Brazilian stock market. As a senior machine learning engineer at Metarobos, I spearheaded the creation of one of the first automated trading robots available to individual investors in Brazil. This innovation not only democratized access to sophisticated trading tools but also set new industry standards for security, transparency, and performance consistency.
 
 **1. Algorithm Development and Programming**
 
 Leveraging my expertise in **MQL5**, **C++**, and **Python**, I designed and implemented an object-oriented trading algorithm optimized for rapid execution and scalability. Recognizing the critical importance of reliability in financial systems, I established a zero-tolerance policy for bugs. This involved rigorous testing protocols, including unit tests, integration tests, and stress tests, to ensure the algorithm's robustness before deployment. My commitment to code quality and performance optimization was fundamental in achieving a system capable of operating flawlessly in real-time trading environments.
 
 **2. Ensuring Order Execution Security**
-
-Understanding the catastrophic risks associated with automated trading errors, I developed multiple layers of verification and risk control within the algorithm. A key focus was mitigating the danger of "order looping," a scenario where execution failures could trigger an uncontrolled series of trades, potentially leading to substantial financial losses within minutes. To prevent this, I implemented safeguards such as real-time execution confirmations, timeout mechanisms, and automatic shutdown protocols in case of detected anomalies. These measures ensured that the algorithm could operate securely, even under adverse conditions.
+ 
+Understanding the high risks associated with automated trading errors, I developed multiple layers of verification and risk control within the algorithm. A key focus was mitigating the risk of "order looping", a scenario where execution failures could trigger an uncontrolled series of trades, potentially leading to substantial financial losses within minutes. To prevent this, I implemented safeguards such as real-time execution confirmations, timeout mechanisms, and automatic shutdown protocols in case of detected anomalies. These measures ensured that the algorithm could operate securely, even under adverse conditions.
 
 **3. Maintaining Operational Consistency Across Diverse Client Environments**
 
@@ -35,7 +35,7 @@ These practices ensured that our trading algorithms remained effective over time
 
 **5. Providing a Diverse Portfolio of Strategies**
 
-Recognizing that investors have varying goals and risk appetites, I developed multiple trading strategies to cater to different profiles. Clients were offered:
+Recognizing that investors have varying goals and risk needs, I developed multiple trading strategies to cater to different profiles. Clients were offered:
 
 - **Customized Strategy Options:** A range of pre-built strategies optimized for different market conditions.
 - **Educational Resources for Strategy Development:** Training programs and materials enabling clients to create and refine their own strategies.
