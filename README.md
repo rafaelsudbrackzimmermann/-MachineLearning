@@ -120,4 +120,20 @@ The proposed solution utilizes a sophisticated neural network model to predict c
 **Competition Results:**
 - **Multiclass balanced accuracy**: 58.596 (Ranked 13st)
 
+## ISIC - Skin Cancer Detection with 3D-TBP - 2024
+- **Final Solution**: [link](https://github.com/rafaelsudbrackzimmermann/-MachineLearning/blob/main/portfolios/ISIC/submissao-final-isic.ipynb)
+- **Resources**: 
+  - [Website](https://www.kaggle.com/competitions/isic-2024-challenge)
+- **Keywords**: Image, Binary Classification, Deep Learning, Neural Networks, Keras, Tensorflow.
+
+#### Project Overview
+<img src="https://raw.githubusercontent.com/rafaelsudbrackzimmermann/-MachineLearning/main/portfolios/ISIC/Banner.png" alt="Project Banner" width="600" height="150">
+
+**The Problem:**
+This competition addresses the need to improve skin cancer triage using lower-quality images from 3D total body photos (TBP) that resemble smartphone pictures, making early detection more accessible.
+
+**The Solution:**
+The proposed solution employs advanced machine learning models to develop algorithms that can accurately differentiate between malignant and benign skin lesions from lower-quality 3D total body photos. These models use neural networks to process and analyze the images, aiming to provide reliable early skin cancer detection in non-clinical settings. The effectiveness of these algorithms is measured using a specific performance metric, the partial area under the ROC curve (pAUC), focusing on achieving high sensitivity in detecting malignant cases.
+
+
 
