@@ -9,7 +9,7 @@ This is a repository of the projects I worked on or currently working on. It is 
 - **3- Main Training**: [link](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-Adrenalin-Load-Disaggregation-Challenge/blob/main/Submission%201/code/_4_main_train.py)
 - **Resources**: 
   - [Website](https://adrenalin.energy/Load-Disaggregation-Challenge-Energy-use-in-buildings)
-  - [Paper](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
+  - [Report](https://github.com/rafaelsudbrackzimmermann/1-PLACE-SOLUTION-ADRENALIN/blob/main/Submission%201/Report.docx)
 - **Keywords**: Unsupervised Learning, Time-Series, Disaggregation, Decomposition, Clustering 
 
 #### Project Overview
